@@ -11,6 +11,7 @@ import AnalyticsSection from '@/components/analytics-section'
 import TrainingSection from '@/components/training-section'
 import OutcomeSportsSection from '@/components/outcome-sports-section'
 import VideoShowcaseSection from '@/components/video-showcase-section'
+import MediaSection from '@/components/media-section'
 import TestimonialsSection from '@/components/testimonials-section'
 import FlowSection from '@/components/flow-section'
 import PricingSection from '@/components/pricing-section'
@@ -69,6 +70,10 @@ export default function Home() {
 
       <div id="video-showcase">
         <VideoShowcaseSection />
+      </div>
+
+      <div id="media">
+        <MediaSection />
       </div>
 
       <div id="testimonials">
